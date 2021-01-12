@@ -1,0 +1,74 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.topo {
+    background-image: url("./img/background-v2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+.top-menu ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.top-menu ul li {
+    padding: 12px;
+    text-decoration: none;
+    color: #6AABD2;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+li {
+    list-style: none;
+}
+
+.body-cards {
+    background-color: #ffffff;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cards-menu {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.card:hover {
+    background-color: #E2E6E7;
+    border-style: none;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card02 {
+    border-style: solid;
+    border-color: #508BFE;
+    border-width: 1px;
+    border-radius: 8px;
+    margin: 20px;
+    width: fit-content;
+    /*font-size: 24px;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.proj-pizzaria ul {
+    text-align: left;
+}

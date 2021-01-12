@@ -1,0 +1,82 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.topo {
+    background-image: url("./img/background-v2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+.top-menu ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.top-menu ul li {
+    padding: 12px;
+    text-decoration: none;
+    list-style: none;
+    color: #6AABD2;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body-cards {
+    background-color: #ffffff;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cards-menu {
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 100px;
+    padding-top: 40px;
+}
+
+.card {
+    width: 240px;
+    height: 80px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.html-css {
+    color: #E44D26;
+}
+
+.js {
+    color: #D6BA32;
+}
+
+.react {
+    color: #61DBFB;
+}
+
+.card:hover {
+    background-color: #E2E6E7;
+    border-style: none;
+    width: 250px;
+    height: 90px;
+}
